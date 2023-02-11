@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b380ee71-82dc-4f7f-9302-ac6ddeb80f01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/_03_driverManageMetotlari/selenium_manageMetotlari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/_04_webElemetMetotlari/selenium_webElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.selenium_manageMetotlari">
+  <component name="RunManager" selected="JUnit.selenium_webElement">
     <configuration name="Selenium_DriverMetotlari" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jnuit" />
       <extension name="coverage">
@@ -59,22 +59,6 @@
       <option name="PACKAGE_NAME" value="_01_driverGetMetotlari" />
       <option name="MAIN_CLASS_NAME" value="_01_driverGetMetotlari.Selenium_DriverMetotlari" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium_DriverMetotlari.driverGetMetot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jnuit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_01_driverGetMetotlari.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_01_driverGetMetotlari" />
-      <option name="MAIN_CLASS_NAME" value="_01_driverGetMetotlari.Selenium_DriverMetotlari" />
-      <option name="METHOD_NAME" value="driverGetMetot" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,13 +108,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="selenium_webElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jnuit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_04_webElemetMetotlari.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_04_webElemetMetotlari" />
+      <option name="MAIN_CLASS_NAME" value="_04_webElemetMetotlari.selenium_webElement" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.selenium_webElement" />
         <item itemvalue="JUnit.selenium_manageMetotlari" />
         <item itemvalue="JUnit.selenium_navigateMetotlari" />
         <item itemvalue="JUnit._01_Belirli_Kelimeyi_icerdiği" />
         <item itemvalue="JUnit.Selenium_DriverMetotlari" />
-        <item itemvalue="JUnit.Selenium_DriverMetotlari.driverGetMetot" />
       </list>
     </recent_temporary>
   </component>
