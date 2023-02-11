@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b380ee71-82dc-4f7f-9302-ac6ddeb80f01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/_04_webElemetMetotlari/selenium_webElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/List_WebElement/AutomationExercise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/_04_webElemetMetotlari/selenium_webElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_04_webElemetMetotlari/selenium_webElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,17 +48,17 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.selenium_webElement">
-    <configuration name="Selenium_DriverMetotlari" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AutomationExercise">
+    <configuration name="AutomationExercise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jnuit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_01_driverGetMetotlari.*" />
+          <option name="PATTERN" value="List_WebElement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_01_driverGetMetotlari" />
-      <option name="MAIN_CLASS_NAME" value="_01_driverGetMetotlari.Selenium_DriverMetotlari" />
+      <option name="PACKAGE_NAME" value="List_WebElement" />
+      <option name="MAIN_CLASS_NAME" value="List_WebElement.AutomationExercise" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AutomationExercise" />
         <item itemvalue="JUnit.selenium_webElement" />
         <item itemvalue="JUnit.selenium_manageMetotlari" />
         <item itemvalue="JUnit.selenium_navigateMetotlari" />
         <item itemvalue="JUnit._01_Belirli_Kelimeyi_icerdiği" />
-        <item itemvalue="JUnit.Selenium_DriverMetotlari" />
       </list>
     </recent_temporary>
   </component>
