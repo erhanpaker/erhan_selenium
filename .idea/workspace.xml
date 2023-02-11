@@ -47,7 +47,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Selenium_DriverMetotlari.driverGetMetot">
+  <component name="RunManager" selected="JUnit.Selenium_DriverMetotlari">
     <configuration name="Selenium_DriverMetotlari" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jnuit" />
       <extension name="coverage">
@@ -81,8 +81,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Selenium_DriverMetotlari.driverGetMetot" />
         <item itemvalue="JUnit.Selenium_DriverMetotlari" />
+        <item itemvalue="JUnit.Selenium_DriverMetotlari.driverGetMetot" />
       </list>
     </recent_temporary>
   </component>
