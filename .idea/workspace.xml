@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b380ee71-82dc-4f7f-9302-ac6ddeb80f01" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Actual_Expected_Result/_01_Belirli_Kelimeyi_icerdiği.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/_01_driverGetMetotlari/Selenium_DriverMetotlari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_01_driverGetMetotlari/Selenium_DriverMetotlari.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Selenium_DriverMetotlari">
+  <component name="RunManager" selected="JUnit._01_Belirli_Kelimeyi_icerdiği">
     <configuration name="Selenium_DriverMetotlari" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jnuit" />
       <extension name="coverage">
@@ -79,8 +79,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_01_Belirli_Kelimeyi_icerdiği" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jnuit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Actual_Expected_Result.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Actual_Expected_Result" />
+      <option name="MAIN_CLASS_NAME" value="Actual_Expected_Result._01_Belirli_Kelimeyi_icerdiği" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._01_Belirli_Kelimeyi_icerdiği" />
         <item itemvalue="JUnit.Selenium_DriverMetotlari" />
         <item itemvalue="JUnit.Selenium_DriverMetotlari.driverGetMetot" />
       </list>
