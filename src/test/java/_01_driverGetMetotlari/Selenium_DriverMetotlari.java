@@ -19,7 +19,7 @@ public class Selenium_DriverMetotlari extends TestBaseMetod {
         System.out.println(driver.getTitle());
 
         // 4 - Gidilen Web sayafasinin kaynak kodunu yazdir (not; kod uzun olduğu açıklama
-        //   System.out.println(driver.getPageSource());
+         // System.out.println(driver.getPageSource());
 
         // 5- Açılan pencere de işletim sistemi tarafindan verilen unique değeri handle yazdır
         System.out.println(driver.getWindowHandle());
