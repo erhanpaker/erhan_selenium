@@ -39,9 +39,9 @@ public class AutomationExercise extends TestBaseMetod {
             // products tıklama kodu
             productsLinki.click();
 
-            WebElement logo = driver.findElement(By.id("sale_image"));
-
             // 1 - bir websitesinde bir yerin göründüğünü test etme kodu (genel)
+
+            WebElement logo = driver.findElement(By.id("sale_image"));
 
             if (logo.isDisplayed()){
                 System.out.println("logo göründü ise TEST PASSED") ;
