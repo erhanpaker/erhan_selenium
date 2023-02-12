@@ -3,7 +3,7 @@ package _01_driverGetMetotlari;
 import org.junit.Test;
 import utilities.TestBaseMetod;
 
-public class Selenium_DriverMetotlari extends TestBaseMetod {
+public class Selenium_DriverGetMetotlari extends TestBaseMetod {
 
     @Test
 
