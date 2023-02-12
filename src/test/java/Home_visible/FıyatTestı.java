@@ -18,7 +18,7 @@ public class FıyatTestı extends TestBaseMetod {
         driver.manage().window().maximize();
         //4-  Sayfayi “refresh” yapin
         driver.navigate().refresh();
-        //5-  Sayfa basliginin “Spend less” ifadesi icerdigini test edin
+        //5-  Sayfa basliginin “Spend less” ifadesi icerdigini test edin 3 videp - 2-saat
 
         String expectedIcerik= "Spend less";
         String actualTitle= driver.getTitle();
