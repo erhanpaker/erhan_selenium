@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b380ee71-82dc-4f7f-9302-ac6ddeb80f01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Home_visible/gorunurlukTesti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Home_visible/GorunurlukTestı.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,37 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.LinkSayısınıBulma">
+  <component name="RunManager" selected="JUnit.GorunurlukTestı">
+    <configuration name="GorunurlukTestı" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jnuit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Home_visible.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Home_visible" />
+      <option name="MAIN_CLASS_NAME" value="Home_visible.GorunurlukTestı" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GorunurlukTesti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jnuit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Home_visible.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Home_visible" />
+      <option name="MAIN_CLASS_NAME" value="Home_visible.GorunurlukTesti" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkSayısınıBulma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jnuit" />
       <extension name="coverage">
@@ -63,61 +93,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gorunurlukTesti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkSayısınıBulma.TestBaseMetod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jnuit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Home_visible.*" />
+          <option name="PATTERN" value="List_WebElement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Home_visible" />
-      <option name="MAIN_CLASS_NAME" value="Home_visible.gorunurlukTesti" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="List_WebElement" />
+      <option name="MAIN_CLASS_NAME" value="List_WebElement.LinkSayısınıBulma" />
+      <option name="METHOD_NAME" value="TestBaseMetod" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="selenium_manageMetotlari" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_01_Belirli_Kelimeyi_icerdiği" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jnuit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_03_driverManageMetotlari.*" />
+          <option name="PATTERN" value="Actual_Expected_Result.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_03_driverManageMetotlari" />
-      <option name="MAIN_CLASS_NAME" value="_03_driverManageMetotlari.selenium_manageMetotlari" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="selenium_navigateMetotlari" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jnuit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_02_driverNavigateMetotlari.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_02_driverNavigateMetotlari" />
-      <option name="MAIN_CLASS_NAME" value="_02_driverNavigateMetotlari.selenium_navigateMetotlari" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="selenium_webElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jnuit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_04_webElemetMetotlari.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_04_webElemetMetotlari" />
-      <option name="MAIN_CLASS_NAME" value="_04_webElemetMetotlari.selenium_webElement" />
+      <option name="PACKAGE_NAME" value="Actual_Expected_Result" />
+      <option name="MAIN_CLASS_NAME" value="Actual_Expected_Result._01_Belirli_Kelimeyi_icerdiği" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GorunurlukTestı" />
+        <item itemvalue="JUnit.LinkSayısınıBulma.TestBaseMetod" />
+        <item itemvalue="JUnit._01_Belirli_Kelimeyi_icerdiği" />
         <item itemvalue="JUnit.LinkSayısınıBulma" />
-        <item itemvalue="JUnit.gorunurlukTesti" />
-        <item itemvalue="JUnit.selenium_webElement" />
-        <item itemvalue="JUnit.selenium_manageMetotlari" />
-        <item itemvalue="JUnit.selenium_navigateMetotlari" />
+        <item itemvalue="JUnit.GorunurlukTesti" />
       </list>
     </recent_temporary>
   </component>
@@ -143,16 +144,5 @@
       <updated>1676107176533</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Home_visible/gorunurlukTesti.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
