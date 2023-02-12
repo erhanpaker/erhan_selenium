@@ -7,7 +7,7 @@ import utilities.TestBaseMetod;
 
 import java.util.List;
 
-public class AutomationExercise extends TestBaseMetod {
+public class LinkSayısınıBulma extends TestBaseMetod {
 
     @Test
 
@@ -32,30 +32,8 @@ public class AutomationExercise extends TestBaseMetod {
 
             System.out.println("belirtilen sayida link yok test FAILD");
 
-            // linke tıklama kodu
-
-            WebElement productsLinki = driver.findElement(By.linkText(" Products"));
-
-            // products tıklama kodu
-            productsLinki.click();
-
-            // 1 - bir websitesinde bir yerin göründüğünü test etme kodu (genel)
-
-            WebElement logo = driver.findElement(By.id("sale_image"));
-
-            if (logo.isDisplayed()){
-                System.out.println("logo göründü ise TEST PASSED") ;
-            }else{
-                System.out.println("logo görünmedi ise TEST FAİLD ") ;
-
-                // BURDAN DEVAM ET 3 VİDEO
-            }
-
-
         }
 
 
     }
-
-
 }
