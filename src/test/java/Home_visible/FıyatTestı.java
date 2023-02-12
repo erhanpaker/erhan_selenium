@@ -11,14 +11,14 @@ public class FıyatTestı extends TestBaseMetod {
 
     public void fıyat(){
 
-        // BU KOD ÇALIŞIYOR DÜZENLEME YAPILCAK
+        // BU KOD ÇALIŞIYOR DÜZENLEME YAPILCAK  3 video - 2-saat
 
         driver.get("https://www.amazon.com/");
         //3-  Browseri tam sayfa yapin
         driver.manage().window().maximize();
         //4-  Sayfayi “refresh” yapin
         driver.navigate().refresh();
-        //5-  Sayfa basliginin “Spend less” ifadesi icerdigini test edin 3 videp - 2-saat
+        //5-  Sayfa basliginin “Spend less” ifadesi icerdigini test edin
 
         String expectedIcerik= "Spend less";
         String actualTitle= driver.getTitle();
