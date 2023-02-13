@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b380ee71-82dc-4f7f-9302-ac6ddeb80f01" name="Changes" comment="" />
+    <list default="true" id="b380ee71-82dc-4f7f-9302-ac6ddeb80f01" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +46,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.İlkArama">
+  <component name="RunManager" selected="JUnit.SeleniumGorunurlukTestı">
     <configuration name="AramaTesti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jnuit" />
       <extension name="coverage">
@@ -60,7 +62,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BulunurlukTesti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumGorunurlukTestı" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jnuit" />
       <extension name="coverage">
         <pattern>
@@ -69,13 +71,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Home_visible" />
-      <option name="MAIN_CLASS_NAME" value="Home_visible.BulunurlukTesti" />
+      <option name="MAIN_CLASS_NAME" value="Home_visible.SeleniumGorunurlukTestı" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FıyatTestı" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumGorunurlukTestı.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jnuit" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +86,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Home_visible" />
-      <option name="MAIN_CLASS_NAME" value="Home_visible.FıyatTestı" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="Home_visible.SeleniumGorunurlukTestı" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SeleniumGorunurlukTestı" />
+        <item itemvalue="JUnit.SeleniumGorunurlukTestı.test" />
         <item itemvalue="JUnit.İlkArama" />
         <item itemvalue="JUnit.İlkArama.ilkUrunuArama" />
         <item itemvalue="JUnit.AramaTesti" />
-        <item itemvalue="JUnit.BulunurlukTesti" />
-        <item itemvalue="JUnit.FıyatTestı" />
       </list>
     </recent_temporary>
   </component>
