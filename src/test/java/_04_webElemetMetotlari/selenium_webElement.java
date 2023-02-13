@@ -33,7 +33,7 @@ public class selenium_webElement extends TestBaseMetod {
         aramakutusu.sendKeys("süt" + Keys.ENTER);
 
 
-        // EKSİKLER VAR BURDAN DEVAM ET
+
 
 
 
