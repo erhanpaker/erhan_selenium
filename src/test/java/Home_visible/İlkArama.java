@@ -12,6 +12,13 @@ public class İlkArama extends TestBaseMetod {
 
     public void ilkUrunuArama(){
 
+
+
+
+       // JUnit'de @BeforeClass ve @AfterClass notasyonlarinin kullanildigi method'lar
+        //static olarak isaretlenmek zorundadir
+        // static WebDriver  driver;
+
         // Bu method'da ilk Nutella urunune tiklayip
         //   urun isminin Nutella icerdigini test ediyoruz
 
