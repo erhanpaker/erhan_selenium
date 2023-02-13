@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b380ee71-82dc-4f7f-9302-ac6ddeb80f01" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Home_visible/BulunurlukTesti.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Home_visible/FıyatTestı.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Home_visible/FıyatTestı.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.FıyatTestı">
+  <component name="RunManager" selected="JUnit.BulunurlukTesti">
+    <configuration name="BulunurlukTesti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jnuit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Home_visible.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Home_visible" />
+      <option name="MAIN_CLASS_NAME" value="Home_visible.BulunurlukTesti" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FıyatTestı" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jnuit" />
       <extension name="coverage">
@@ -110,28 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_01_Belirli_Kelimeyi_icerdiği" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jnuit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Actual_Expected_Result.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Actual_Expected_Result" />
-      <option name="MAIN_CLASS_NAME" value="Actual_Expected_Result._01_Belirli_Kelimeyi_icerdiği" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BulunurlukTesti" />
         <item itemvalue="JUnit.FıyatTestı" />
         <item itemvalue="JUnit.FıyatTestı.fıyat" />
         <item itemvalue="JUnit.GorunurlukTestı" />
         <item itemvalue="JUnit.LinkSayısınıBulma.TestBaseMetod" />
-        <item itemvalue="JUnit._01_Belirli_Kelimeyi_icerdiği" />
       </list>
     </recent_temporary>
   </component>
