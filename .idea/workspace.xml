@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b380ee71-82dc-4f7f-9302-ac6ddeb80f01" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Home_visible/SeleniumDoğrulamaTesti.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +47,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.SeleniumGorunurlukTestı">
-    <configuration name="AramaTesti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SeleniumDoğrulamaTesti">
+    <configuration name="SeleniumDoğrulamaTesti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jnuit" />
       <extension name="coverage">
         <pattern>
@@ -56,7 +57,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Home_visible" />
-      <option name="MAIN_CLASS_NAME" value="Home_visible.AramaTesti" />
+      <option name="MAIN_CLASS_NAME" value="Home_visible.SeleniumDoğrulamaTesti" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SeleniumDoğrulamaTesti" />
         <item itemvalue="JUnit.SeleniumGorunurlukTestı" />
         <item itemvalue="JUnit.SeleniumGorunurlukTestı.test" />
         <item itemvalue="JUnit.İlkArama" />
         <item itemvalue="JUnit.İlkArama.ilkUrunuArama" />
-        <item itemvalue="JUnit.AramaTesti" />
       </list>
     </recent_temporary>
   </component>
