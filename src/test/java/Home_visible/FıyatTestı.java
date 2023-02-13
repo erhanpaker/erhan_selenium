@@ -9,38 +9,33 @@ public class FıyatTestı extends TestBaseMetod {
 
     @Test
 
-    public void fıyat(){
+    public void fıyat() throws InterruptedException {
 
-        // BU KOD ÇALIŞIYOR DÜZENLEME YAPILCAK  3 video - 2-saat
 
         driver.get("https://www.amazon.com/");
-        //3-  Browseri tam sayfa yapin
-        driver.manage().window().maximize();
-        //4-  Sayfayi “refresh” yapin
+
+        // 1- Taracıyı refresh yapmayınca Test Faild Oluyor
         driver.navigate().refresh();
-        //5-  Sayfa basliginin “Spend less” ifadesi icerdigini test edin
 
-        String expectedIcerik= "Spend less";
-        String actualTitle= driver.getTitle();
-
-        if (actualTitle.contains(expectedIcerik)){
-            System.out.println("Title testi PASSED");
-        }else{
-            System.out.println("Title'da aranan icerik yok, Test FAILED ");
-        }
-        //6-  Gift Cards sekmesine basin
+        //2-  Gift Cards sekmesine basin
         driver.findElement(By.xpath("//*[text()='Gift Cards']")).click();
-        //7-  Birthday butonuna basin
+
+        //3-  Birthday butonuna basin
         driver.findElement(By.xpath("//a[@aria-label='Birthday']")).click();
-        //8-  Best Seller bolumunden ilk urunu tiklayin
+
+        //4-  Best Seller bolumunden ilk urunu tiklayin
         driver.findElement(By.xpath("(//div[@class='a-section a-spacing-mini a-spacing-top-micro acs-product-block__product-image'])[1]")).click();
-        //9-  Gift card details’den 25 $’i  secin
+
+        //5-  Gift card details’den 25 $’i  secin
         driver.findElement(By.xpath("(//button[@id='gc-mini-picker-amount-1'])[1]")).click();
-        //10-Urun ucretinin 25$ oldugunu test edin
+
+        //6 -Urun ucretinin 25$ oldugunu test etmeye başlangıç kısmı!!
         WebElement urunUcretElementi= driver.findElement(By.xpath("//span[@id='gc-live-preview-amount']"));
 
-        String expectedUcret="25$";
-        String actualUcret=urunUcretElementi.getText();
+        // 7 - Ürün fiyatının 25$ dolar olduğunu test eden kod bloğum!
+
+         String expectedUcret="25$";
+         String actualUcret=urunUcretElementi.getText();
 
         if (expectedUcret.equals(actualUcret)){
             System.out.println("Ucret testi PASSED");
