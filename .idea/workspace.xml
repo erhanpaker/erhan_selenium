@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b380ee71-82dc-4f7f-9302-ac6ddeb80f01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Home_visible/BulunurlukTesti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Home_visible/AramaTesti.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.BulunurlukTesti">
+  <component name="RunManager" selected="JUnit.AramaTesti">
+    <configuration name="AramaTesti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jnuit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Home_visible.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Home_visible" />
+      <option name="MAIN_CLASS_NAME" value="Home_visible.AramaTesti" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BulunurlukTesti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jnuit" />
       <extension name="coverage">
@@ -109,29 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkSayısınıBulma.TestBaseMetod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jnuit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="List_WebElement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="List_WebElement" />
-      <option name="MAIN_CLASS_NAME" value="List_WebElement.LinkSayısınıBulma" />
-      <option name="METHOD_NAME" value="TestBaseMetod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AramaTesti" />
         <item itemvalue="JUnit.BulunurlukTesti" />
         <item itemvalue="JUnit.FıyatTestı" />
         <item itemvalue="JUnit.FıyatTestı.fıyat" />
         <item itemvalue="JUnit.GorunurlukTestı" />
-        <item itemvalue="JUnit.LinkSayısınıBulma.TestBaseMetod" />
       </list>
     </recent_temporary>
   </component>
