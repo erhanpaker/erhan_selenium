@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b380ee71-82dc-4f7f-9302-ac6ddeb80f01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Home_visible/AramaTesti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Home_visible/İlkArama.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.AramaTesti">
+  <component name="RunManager" selected="JUnit.İlkArama">
     <configuration name="AramaTesti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jnuit" />
       <extension name="coverage">
@@ -93,7 +93,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FıyatTestı.fıyat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="İlkArama" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jnuit" />
       <extension name="coverage">
         <pattern>
@@ -102,14 +102,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Home_visible" />
-      <option name="MAIN_CLASS_NAME" value="Home_visible.FıyatTestı" />
-      <option name="METHOD_NAME" value="fıyat" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="Home_visible.İlkArama" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GorunurlukTestı" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="İlkArama.ilkUrunuArama" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jnuit" />
       <extension name="coverage">
         <pattern>
@@ -118,19 +117,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Home_visible" />
-      <option name="MAIN_CLASS_NAME" value="Home_visible.GorunurlukTestı" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="Home_visible.İlkArama" />
+      <option name="METHOD_NAME" value="ilkUrunuArama" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.İlkArama" />
+        <item itemvalue="JUnit.İlkArama.ilkUrunuArama" />
         <item itemvalue="JUnit.AramaTesti" />
         <item itemvalue="JUnit.BulunurlukTesti" />
         <item itemvalue="JUnit.FıyatTestı" />
-        <item itemvalue="JUnit.FıyatTestı.fıyat" />
-        <item itemvalue="JUnit.GorunurlukTestı" />
       </list>
     </recent_temporary>
   </component>
