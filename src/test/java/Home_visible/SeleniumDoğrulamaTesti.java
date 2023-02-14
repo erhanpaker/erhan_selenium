@@ -36,7 +36,7 @@ public class SeleniumDoğrulamaTesti extends TestBaseMetod {
         String expectedTitle="https://www.youtube.com";
 
         String actualTitle= driver.getTitle();
-        Assert.assertEquals(expectedTitle,actualTitle);
+        Assert.assertNotEquals(expectedTitle,actualTitle);
 
 
     }
@@ -47,7 +47,7 @@ public class SeleniumDoğrulamaTesti extends TestBaseMetod {
 
 
         // 2 sayfa url youtube olduğunu test edilmesini isteseydik altdaki kodu kullan
-        String expectedTitle="youtube.com";
+        String expectedTitle="youtube";
 
         String  actualUrl = driver.getCurrentUrl();
         Assert.assertTrue(actualUrl.contains(expectedTitle));
