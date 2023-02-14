@@ -13,14 +13,19 @@ public class SeleniumDoğrulamaTesti extends TestBaseMetod {
 
     public void dogrulama(){
 
-        // Sayfa başlığının “YouTube” oldugunu test edin
+        //  1 Sayfa başlığının “YouTube” oldugunu test edin - iki farklı senaryo
 
         driver.get("https://www.youtube.com");
 
-        String expectedTitle="YouTube";
-        String actualTitle= driver.getTitle();
+        String expectedTitle="youtube.com";
 
-        Assert.assertEquals(expectedTitle,actualTitle);
+        // String actualTitle= driver.getTitle();
+       //  Assert.assertEquals(expectedTitle,actualTitle);
+
+        // 2 sayfa url youtube olduğunu test edilmesini isteseydik altdaki kodu kullan
+
+        String  actualUrl = driver.getCurrentUrl();
+        Assert.assertTrue(actualUrl.contains(expectedTitle));
 
 
     }
