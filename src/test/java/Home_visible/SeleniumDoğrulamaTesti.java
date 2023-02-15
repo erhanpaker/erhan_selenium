@@ -29,7 +29,7 @@ public class SeleniumDoğrulamaTesti extends TestBaseMetod {
 
     @Test
 
-    public void test011(){
+    public void baslıkTestı(){
 
 
         // 2 sayfa url youtube olduğunu test edilmesini isteseydik altdaki kodu kullan
