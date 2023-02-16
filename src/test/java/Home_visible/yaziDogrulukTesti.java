@@ -19,6 +19,7 @@ public class yaziDogrulukTesti extends TestBaseMetod {
         Thread.sleep(1000);
 
         WebElement yaziElementi = driver.findElement(By.tagName("h3"));
+
         String expectedYazi = "Opening a new window";
         String actualYazi = yaziElementi.getText();
         Assert.assertEquals(expectedYazi,actualYazi);
