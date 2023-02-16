@@ -33,6 +33,8 @@ public class TestBaseMetod {
 
     public  void teardown(){
 
+        driver.quit();
+
 
 
 
