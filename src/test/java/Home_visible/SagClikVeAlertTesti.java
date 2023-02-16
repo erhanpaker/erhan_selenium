@@ -15,6 +15,8 @@ public class SagClikVeAlertTesti extends TestBaseMetod {
 
     public void sagClik(){
 
+        // bu 1 adım: not: actions ile biten tüm kodlar "perform()" ile bitmek zorunda
+
         driver.get("https://the-internet.herokuapp.com/context_menu");
 
         WebElement buton = driver.findElement(By.xpath("//div[@id='hot-spot']"));
@@ -22,7 +24,7 @@ public class SagClikVeAlertTesti extends TestBaseMetod {
 
         actions.contextClick(buton).perform();
 
-        // bu 1 adım bitti: not: actions ile biten tüm kodlar "perform()" ile bitmek zorunda
+
 
         // bu 2 adım - Alert'te çıkan yazinin "You selected a context menu" olduğunu test kod bu
 
@@ -30,6 +32,12 @@ public class SagClikVeAlertTesti extends TestBaseMetod {
         String actualAlertYazisi = driver.switchTo().alert().getText();
 
         Assert.assertEquals(expectedAlertYazisi,actualAlertYazisi);
+
+        // 3 - Tamam diyerel Alert kapatıyoruz
+
+        driver.switchTo().alert().accept();
+
+
     }
 
 
