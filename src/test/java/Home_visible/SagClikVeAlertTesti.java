@@ -33,7 +33,7 @@ public class SagClikVeAlertTesti extends TestBaseMetod {
 
         Assert.assertEquals(expectedAlertYazisi,actualAlertYazisi);
 
-        // 3 - Tamam diyerel Alert kapatıyoruz
+        // 3 - Tamam diyerek Alert kapatıyoruz
 
         driver.switchTo().alert().accept();
 
