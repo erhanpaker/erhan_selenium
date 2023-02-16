@@ -37,6 +37,10 @@ public class SagClikVeAlertTesti extends TestBaseMetod {
 
         driver.switchTo().alert().accept();
 
+        driver.findElement(By.xpath("//*[text()='Elemental Selenium']")).click();
+
+
+
 
     }
 
