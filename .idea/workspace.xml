@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b380ee71-82dc-4f7f-9302-ac6ddeb80f01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Home_visible/yaziDogrulukTesti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Home_visible/SagClikYapma.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBaseMetod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseMetod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.yaziDogrulukTesti">
+  <component name="RunManager" selected="JUnit.SagClikYapma">
+    <configuration name="SagClikYapma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jnuit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Home_visible.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Home_visible" />
+      <option name="MAIN_CLASS_NAME" value="Home_visible.SagClikYapma" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SeleniumDoğrulamaTesti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jnuit" />
       <extension name="coverage">
@@ -62,22 +75,6 @@
       <option name="PACKAGE_NAME" value="Home_visible" />
       <option name="MAIN_CLASS_NAME" value="Home_visible.SeleniumDoğrulamaTesti" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeleniumDoğrulamaTesti.test011" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jnuit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Home_visible.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Home_visible" />
-      <option name="MAIN_CLASS_NAME" value="Home_visible.SeleniumDoğrulamaTesti" />
-      <option name="METHOD_NAME" value="test011" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SagClikYapma" />
         <item itemvalue="JUnit.yaziDogrulukTesti" />
         <item itemvalue="JUnit.yeniTabAcma" />
         <item itemvalue="JUnit.SeleniumDoğrulamaTesti" />
         <item itemvalue="JUnit.test" />
-        <item itemvalue="JUnit.SeleniumDoğrulamaTesti.test011" />
       </list>
     </recent_temporary>
   </component>
