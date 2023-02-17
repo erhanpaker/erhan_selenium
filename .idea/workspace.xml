@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b380ee71-82dc-4f7f-9302-ac6ddeb80f01" name="Changes" comment="" />
+    <list default="true" id="b380ee71-82dc-4f7f-9302-ac6ddeb80f01" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Home_visible/otomatikMenuAcılması.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +48,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.butonSürükleyipBırakma">
+  <component name="RunManager" selected="JUnit.otomatikMenuAcılması">
     <configuration name="SagClikVeAlertTesti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jnuit" />
       <extension name="coverage">
@@ -61,21 +64,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumDoğrulamaTesti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jnuit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Home_visible.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Home_visible" />
-      <option name="MAIN_CLASS_NAME" value="Home_visible.SeleniumDoğrulamaTesti" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="butonSürükleyipBırakma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jnuit" />
       <extension name="coverage">
@@ -86,6 +74,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="Home_visible" />
       <option name="MAIN_CLASS_NAME" value="Home_visible.butonSürükleyipBırakma" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="otomatikMenuAcılması" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jnuit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Home_visible.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Home_visible" />
+      <option name="MAIN_CLASS_NAME" value="Home_visible.otomatikMenuAcılması" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.otomatikMenuAcılması" />
         <item itemvalue="JUnit.butonSürükleyipBırakma" />
         <item itemvalue="JUnit.SagClikVeAlertTesti" />
         <item itemvalue="JUnit.yaziDogrulukTesti" />
         <item itemvalue="JUnit.yeniTabAcma" />
-        <item itemvalue="JUnit.SeleniumDoğrulamaTesti" />
       </list>
     </recent_temporary>
   </component>
