@@ -2,7 +2,7 @@ selenium
 - webElement.click(); Web Element'e click yapar
 - webElement.sendKeys("Metin" ); Parametre olarak yazilan metni Web Elemente gönderi
 - webElement.submit(); Web element ile islem yaparken Enter tusuna basma gorevi yapar
-- webElement.sendKeys("Metin" + Keys.ENTER ); Istedigimiz metni yollayip, sonra ENTER'a basar. - webElement.getText(); Web Element uzerindeki yaziyi getirir
+- webElement.sendKeys("Metin" + Keys.ENTER ); Istedigimiz metni yollayip, sonra ENTER'a basar. -       webElement.getText(); Web Element uzerindeki yaziyi getirir.
 - webElement.getAttribute("Att.ismi" ); Ismi girilen attribute'un degerini getirir
 - webElement.getTagName(); Web elementin tag ismini getirir
 - webElement.isEnable(); Web Element erisilebilir ise true yoksa false döner
@@ -10,18 +10,14 @@ selenium
 - webElement.isSelected(); Web Element secili ise true yoksa false doner
 -----------------------------------
 * driver.get(String Url); --> String olarak girilen Url'e gider.
-* driver.getTitle();
-* driver.getCurrentUrl();
-* driver.getPageSource();
-* driver.getWindowHandle();
-* driver.getWindowHandles();
+* driver.getTitle(); --> Icinde olunan sayfanin basligini String olarak getirir.
+* driver.getCurrentUrl(); --> Icinde olunan sayfanin Url'ini String olarak getirir.
+* driver.getPageSource(); --> Icinde olunan sayfanin kaynak kodlarini String olarak getirir.
+* driver.getWindowHandle(); --> Icinde olunan sayfa ve/veya tab'larin --> Handle degerini getirir
+* driver.getWindowHandles(); --> Browser'i maximize yapar. --> Browser'i minimize yapar.
 * driver.manage().window().maximize(); * driver.manage().window().minimize(); * driver.manage().window().fullscreen(); * driver.mange().window().getPosition(); * driver.manage().window().getSize();
 
---> Icinde olunan sayfanin basligini String olarak getirir.
---> Icinde olunan sayfanin Url'ini String olarak getirir.
---> Icinde olunan sayfanin kaynak kodlarini String olarak getirir.
---> Icinde olunan sayfa ve/veya tab'larin --> Handle degerini getirir
---> Browser'i maximize yapar. --> Browser'i minimize yapar.
+
 --> Browser'i full scren yapar.
 --> Browser'in koordinatlarini verir.
 --> Brovser'in olculerini verir
