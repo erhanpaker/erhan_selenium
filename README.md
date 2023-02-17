@@ -9,14 +9,14 @@ selenium
 - webElement.isDisplayed(); Web Element gorunur ise true yoksa false döner
 - webElement.isSelected(); Web Element secili ise true yoksa false doner
 -----------------------------------
-* driver.get(String Url);
+* driver.get(String Url); --> String olarak girilen Url'e gider.
 * driver.getTitle();
 * driver.getCurrentUrl();
 * driver.getPageSource();
 * driver.getWindowHandle();
 * driver.getWindowHandles();
 * driver.manage().window().maximize(); * driver.manage().window().minimize(); * driver.manage().window().fullscreen(); * driver.mange().window().getPosition(); * driver.manage().window().getSize();
---> String olarak girilen Url'e gider.
+
 --> Icinde olunan sayfanin basligini String olarak getirir.
 --> Icinde olunan sayfanin Url'ini String olarak getirir.
 --> Icinde olunan sayfanin kaynak kodlarini String olarak getirir.
