@@ -13,7 +13,7 @@ public class SeleniumDoğrulamaTesti extends TestBaseMetod {
 
     public void sayfaBaslıgıDogrulama(){
 
-        // Junit ile "assertion için en çok kullanılan 4 metod
+        // Junit ile "assertion için en çok kullanılan metod
 
         //  1 Sayfa başlığının “YouTube” oldugunu test edin - iki farklı senaryo
 
